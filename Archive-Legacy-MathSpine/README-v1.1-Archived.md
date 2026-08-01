@@ -177,10 +177,11 @@ tensor fusion systems, NDH mathematical architecture
 
 ```markdown
 ---
-Provenance: NDH-Triadic-Core README v1.1 defines the canonical mathematical
-identity of the NDH operator suite, stability manifold, holonomy geometry,
-tensor fusion system, and triadic math core. This README anchors the NDH v1.1
-mathematical publication envelope and supersedes the legacy Math Spine README.
+---
+Provenance: README-v1.1-Archived preserves the historical mathematical identity
+of the NDH-Triadic-Core during the NDH v1.1 development cycle. This document is
+archived to maintain lineage continuity and is no longer part of the active
+Triadic-Core mathematical manifold.
 
 Note: The NDH‑Triadic‑Core contains no internal citations. All interpretive,
 literature, and provenance references are handled by the Reflection Layer in
@@ -189,6 +190,7 @@ citation blocks.
 
 Maintainer: Borealis S. Hedling • Dublin, Ireland • 2026
 ---
+
 ```
 
 ---
