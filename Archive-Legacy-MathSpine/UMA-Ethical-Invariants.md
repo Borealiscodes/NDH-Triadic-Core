@@ -44,3 +44,14 @@ These invariants:
 
 All future NDH mathematical structures must be checked against this invariant set.
 
+---
+Provenance: UMA-Ethical-Invariants.md documents the early ethical invariant
+layer that informed NDH's sovereignty calculus and identity-boundary rules.
+This legacy invariant set is preserved for historical reference and ethical
+lineage continuity as NDH transitions to the NDH-Triadic-Core mathematical
+architecture.
+
+Maintainer: Borealis S. Hedling • Dublin, Ireland • 2026
+---
+
+
