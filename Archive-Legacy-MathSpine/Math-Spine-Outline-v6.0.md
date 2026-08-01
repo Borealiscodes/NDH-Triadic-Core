@@ -154,4 +154,12 @@ GitHub‑safe glossary for NDH terms.
 Guided link: **Generate NDH Glossary**
 
 ---
+Provenance: Math-Spine-Outline-v6.0 represents the pre-Triadic era structural
+overview of NDH mathematics. It captures the legacy conceptual framing prior to
+the introduction of the operator-driven NDH-Triadic-Core. Archived for
+historical continuity and lineage preservation.
+
+Maintainer: Borealis S. Hedling • Dublin, Ireland • 2026
+---
+
 
