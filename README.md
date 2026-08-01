@@ -1,6 +1,6 @@
 # 📘 **NDH‑Triadic‑Core**  
 ### *Canonical Mathematical Backbone of NDH*  
-### README v1.0 — *Operator & Stability Edition*
+### README v1.1 — *Provenance‑Standard Edition*
 
 ---
 
@@ -13,12 +13,13 @@ This repository contains:
 
 - the **Crane Operator** (curvature‑event operator)  
 - the **Scarf Operator** (holonomy‑transport operator)  
-- the **Manifold Operator** (geometric operator)  
+- the **Manifold Operator** (geometric substrate operator)  
 - the **NDH Stability Manifold**  
 - the **Triadic Math Core**  
 - the **Holonomy Geometry Integration**  
 - the **Fusion Tensor Expansion**  
-- the **Stability Analysis Suite**
+- the **Stability Analysis Suite**  
+- the **Triadic‑Core Provenance Standard v1.0**
 
 These mathematical structures form the **Triadic Spine**, the core of NDH v1.1.
 
@@ -127,9 +128,12 @@ This ensures historical continuity without contaminating the active mathematical
 
 ```
 NDH-Triadic-Core/
+    Standards/
+        Triadic-Core-Provenance-Standard-v1.0.md
+
     Operators/
         Crane-Operator-v1.1.md
-        Scarf-Operator-Draft-v1.0.md
+        Scarf-Operator-v1.0.md
         Manifold-Operator-v1.0.md
 
     Manifold/
@@ -173,10 +177,15 @@ tensor fusion systems, NDH mathematical architecture
 
 ```markdown
 ---
-Provenance: NDH-Triadic-Core README v1.0 defines the canonical mathematical
+Provenance: NDH-Triadic-Core README v1.1 defines the canonical mathematical
 identity of the NDH operator suite, stability manifold, holonomy geometry,
 tensor fusion system, and triadic math core. This README anchors the NDH v1.1
-mathematical publication envelope and replaces the legacy Math Spine identity.
+mathematical publication envelope and supersedes the legacy Math Spine README.
+
+Note: The NDH‑Triadic‑Core contains no internal citations. All interpretive,
+literature, and provenance references are handled by the Reflection Layer in
+Zen‑AI‑Design‑Architecture, which maintains the citation ontology and merged
+citation blocks.
 
 Maintainer: Borealis S. Hedling • Dublin, Ireland • 2026
 ---
