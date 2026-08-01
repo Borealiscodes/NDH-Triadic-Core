@@ -229,4 +229,13 @@ ethical multi-layer architecture
 ```
 
 ---
+Provenance: README-v5.0-Legacy.md served as the identity anchor for the
+NDH-Math-Spine prior to its transition into the NDH-Triadic-Core. It reflects
+the expressive, architectural, and ethos-heavy framing of the pre-operator
+mathematical era. Archived to maintain continuity and preserve the evolution of
+NDH's mathematical identity.
+
+Maintainer: Borealis S. Hedling • Dublin, Ireland • 2026
+---
+
 
