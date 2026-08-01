@@ -111,3 +111,13 @@
   }
 }
 
+---
+Provenance: Commit-Governance-Ruleset-v1.0.json defines the legacy governance
+ruleset used during the initial NDH-Math-Spine development cycle. It is
+archived to preserve the historical governance posture and commit discipline
+that preceded the formalization of the NDH-Triadic-Core.
+
+Maintainer: Borealis S. Hedling • Dublin, Ireland • 2026
+---
+
+
