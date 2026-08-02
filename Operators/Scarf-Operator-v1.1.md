@@ -1,171 +1,121 @@
-# 📘 **Scarf Operator — NDH‑Triadic‑Core v1.1**  
-**Holonomy‑Safe Parallel Transport Operator**
+# 📘 **Crane Operator — NDH‑Triadic‑Core v1.1**  
+**Holonomy Curvature Event Operator**
 
 ---
 
 ## **1. Purpose**
 
-The **Scarf Operator** defines holonomy‑safe parallel transport of tensors along smooth curves in the NDH manifold.  
-It ensures that transport occurs only when:
+The **Crane Operator** defines **curvature‑neutral event activation** within the NDH manifold.  
+It ensures that an event may be triggered only when:
 
-- holonomy deviation is within bounds  
-- curvature remains stable along the path  
-- the stability envelope is satisfied  
-- drift remains below the maximum permitted threshold  
+- curvature is within safe bounds  
+- holonomy deviation is below threshold  
+- tensor stability is preserved  
+- continuity constraints are satisfied  
 
-Scarf governs all tensor movement within the NDH Stability Manifold.
+Crane governs **event permission** at specific manifold points.
 
 ---
 
-## **2. Formal Definition**
+## **2. Operator Definition**
 
 Let:
 
 - \( \mathcal{M} \) be the NDH manifold  
-- \( \gamma : [0,1] \to \mathcal{M} \) a smooth curve  
-- \( T_0 \) a tensor at \( \gamma(0) \)  
-- \( \nabla \) the manifold connection  
+- \( R(x) \) the curvature tensor  
 - \( \mathcal{H}(x) \) the holonomy field  
-- \( S(x) \) the stability envelope  
+- \( E \) a candidate event at point \( x \in \mathcal{M} \)  
 
-Define the Scarf Operator:
+Define the Crane Operator \( \mathcal{C} \):
 
 \[
-\mathcal{S}_{\text{scarf}}(\gamma, T_0) =
+\mathcal{C}(x, E) =
 \begin{cases}
-T(1) & \text{if } \nabla_{\dot{\gamma}(t)} T(t) = 0,\;
-\|\mathcal{H}(\gamma(t))\| \le H_{\max},\;
-S(\gamma(t)) \ge S_{\min} \\
-\text{undefined} & \text{otherwise}
+1 & \text{if } \Phi_{\text{curv}}(x) \le \delta_{\text{curv}}
+\ \text{and} \
+\Phi_{\text{hol}}(x) \le \delta_{\text{hol}} \\
+0 & \text{otherwise}
 \end{cases}
 \]
 
 Where:
 
-- \( T(t) \) is the parallel‑transported tensor  
-- holonomy deviation must remain below \( H_{\max} \)  
-- stability must remain above \( S_{\min} \)  
+- \( \Phi_{\text{curv}}(x) = \|R(x)\| \)  
+- \( \Phi_{\text{hol}}(x) = \|\mathcal{H}(x)\| \)  
+- \( \delta_{\text{curv}}, \delta_{\text{hol}} > 0 \) are stability thresholds  
+
+Crane returns **1** only when both curvature and holonomy are within safe limits.
 
 ---
 
-## **3. Mathematical Constraints**
+## **3. Curvature‑Neutral Activation Condition**
 
-### **3.1 Parallel Transport Condition**
+An event \( E \) is **Crane‑safe** at point \( x \) if:
 
 \[
-\nabla_{\dot{\gamma}(t)} T(t) = 0
+\|R(x)\| \le \delta_{\text{curv}}
+\quad \text{and} \quad
+\|\mathcal{H}(x)\| \le \delta_{\text{hol}}
 \]
 
-Ensures tensor continuity along the path.
+This ensures:
+
+- no curvature spike  
+- no holonomy twist  
+- no tensor instability  
+- no continuity break  
+
+Crane enforces **curvature‑neutral activation**.
 
 ---
 
-### **3.2 Holonomy Bound**
+## **4. Relationship to Scarf Operator**
 
-\[
-\|\mathcal{H}(\gamma(t))\| \le H_{\max}
-\quad \forall t \in [0,1]
-\]
+Crane and Scarf form the **event‑transport pair**:
 
-Ensures holonomy deviation remains within safe limits.
+- **Crane** determines *whether* an event may occur at a point.  
+- **Scarf** determines *how* tensors may be transported along a path.
 
----
+Crane operates at **points**.  
+Scarf operates along **curves**.
 
-### **3.3 Stability Envelope Condition**
-
-\[
-S(\gamma(t)) \ge S_{\min}
-\quad \forall t
-\]
-
-Ensures transport occurs only within the stability envelope.
+Both are required for NDH Stability Manifold coherence.
 
 ---
 
-### **3.4 Drift Bound**
+## **5. Relationship to Manifold Operator**
 
-Let drift be:
+The Manifold Operator provides:
 
-\[
-D(\gamma) = \max_{t \in [0,1]} |S(\gamma(t)) - S(\gamma(0))|
-\]
+- curvature tensor \( R(x) \)  
+- holonomy field \( \mathcal{H}(x) \)  
+- geometric substrate \( \mathcal{M} \)  
 
-Scarf requires:
-
-\[
-D(\gamma) \le D_{\max}
-\]
-
-Ensures stability continuity along the path.
+Crane reads these quantities to determine event permission.
 
 ---
 
-## **4. Operator Relationships**
-
-### **Manifold Operator → Scarf**
-Provides:
-
-- connection \( \nabla \)  
-- holonomy field \( \mathcal{H} \)  
-- stability envelope \( S(x) \)  
-
-Scarf reads these quantities.
-
----
-
-### **Stability Manifold → Scarf**
-Provides:
-
-- drift bounds  
-- stability basins  
-- operator‑safe region  
-
-Transport is permitted only within stability basins.
-
----
-
-### **Crane → Scarf**
-Crane determines event permission at the path endpoints.
-
-Scarf requires Crane permission at:
-
-- \( \gamma(0) \)  
-- \( \gamma(1) \)
-
----
-
-### **Scarf → Confetti**
-Confetti activation must not violate Scarf path stability.
-
----
-
-## **5. Version Notes (v1.1)**
+## **6. Version Notes (v1.1)**
 
 This version introduces:
 
-- explicit drift bounds  
-- strengthened holonomy constraints  
-- explicit endpoint Crane‑permission requirement  
-- integration with NDH Stability Manifold v1.0  
-- alignment with Unified Operator v1.0  
-
-These changes ensure NDH v1.1 stability compliance.
+- explicit curvature and holonomy thresholds  
+- clarified event‑permission semantics  
+- alignment with NDH Stability Manifold v1.1  
+- removal of expressive and Confetti‑state artifacts  
+- compliance with Triadic‑Core Provenance Standard v1.0  
 
 ---
 
-## **6. Provenance Footer**
+## **7. Provenance Footer**
 
 ```markdown
 ---
-Provenance: Scarf-Operator-v1.1 defines the holonomy-safe parallel transport
-operator within the NDH-Triadic-Core. It specifies the parallel transport
-conditions, holonomy bounds, stability envelope requirements, and drift limits
-required for safe tensor movement within the NDH Stability Manifold.
-
-Note: The NDH‑Triadic‑Core contains no internal citations. All interpretive,
-literature, and provenance references are handled by the Reflection Layer in
-Zen‑AI‑Design‑Architecture, which maintains the citation ontology and merged
-citation blocks.
+Provenance: Crane-Operator-v1.1 defines the curvature-neutral event operator for
+the NDH-Triadic-Core. It specifies activation conditions based on curvature and
+holonomy thresholds and establishes the relationship between Crane, Scarf, and
+the Manifold Operator within the NDH Stability Manifold. This version replaces
+all prior expressive or Confetti-state variants.
 
 Maintainer: Borealis S. Hedling • Dublin, Ireland • 2026
 ---
