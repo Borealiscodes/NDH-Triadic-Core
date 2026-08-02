@@ -1,70 +1,72 @@
-# 📘 **NDH‑Triadic‑Core Cleanup Plan v1.0 (Updated)**  
-### *Mathematical Restoration & Post‑Confetti Stabilization*
+# 📘 **NDH‑Triadic‑Core Cleanup Plan v1.0 (Crane‑Aligned Edition)**  
+### *Mathematical Restoration After Confetti‑State Corruption*
 
 ---
 
 ## **0 — Purpose**
 
-This plan restores **NDH‑Triadic‑Core** to a clean mathematical state after the **Confetti incident** and the discovery that multiple core operators and the operator index are corrupted.
+This cleanup plan restores **NDH‑Triadic‑Core** to a mathematically pure state after the Confetti incident and the discovery that multiple core operators were corrupted.
 
-It defines:
+The **Crane Operator v1.1** is confirmed clean and now serves as the **reference standard** for reconstructing:
 
-- all corrupted artifacts  
-- Confetti extraction  
-- Zen‑AI preservation routing  
-- reconstruction of canonical operators  
-- restoration of missing v1.1 mathematical artifacts  
-- directory reconstruction  
-- provenance correction  
-- stability manifold cleanup  
+- Manifold‑Operator‑v1.1  
+- Scarf‑Operator‑v1.1  
+- Operator‑Index‑v1.1  
 
-This is the **canonical cleanup plan** for NDH‑Triadic‑Core v1.1.
+This plan defines the extraction, preservation, and reconstruction steps required for NDH‑Triadic‑Core v1.1.
 
 ---
 
 ## **1 — Corrupted Artifacts (Confirmed)**
 
-The following artifacts are **Confetti‑state** and must be removed from the mathematical manifold:
+The following artifacts are **Confetti‑state** and must be removed from NDH‑Triadic‑Core:
 
-### **1.1 Operators**
+- **Manifold‑Operator‑v1.1.md**  
+- **Scarf‑Operator‑v1.1.md**  
+- **Operator‑Index‑v1.0.md**  
 - Confetti‑Operator‑v1.0.md  
 - Crane‑Scarf‑Confetti‑Unified‑Operator‑v1.0.md  
-- **Manifold‑Operator‑v1.1.md (corrupted)**  
-- **Scarf‑Operator‑v1.1.md (corrupted)**  
+- NDH‑Stability‑Manifold‑v1.0.md (contains Confetti integration)
 
-### **1.2 Index**
-- **Operator‑Index‑v1.0.md (corrupted)**  
-
-### **1.3 Stability Manifold**
-- NDH‑Stability‑Manifold‑v1.0.md  
-  - Contains Confetti integration  
-  - Must be rewritten as v1.1  
-
-These artifacts **cannot** remain in NDH‑Triadic‑Core.
-
-They must be preserved in:
+These artifacts must be preserved in:
 
 **Zen‑AI‑Design‑Architecture/Archive/Confetti/**
 
 ---
 
-## **2 — Missing v1.1 Artifacts (Per Changelog)**
+## **2 — Clean Reference Artifact**
 
-The following artifacts must be reconstructed cleanly:
+The following artifact is confirmed clean and becomes the **mathematical reference** for reconstruction:
+
+### ✔ **Crane‑Operator‑v1.1.md**
+
+It defines:
+
+- curvature‑neutral activation  
+- holonomy deviation thresholds  
+- operator‑safe conditions  
+- manifold geometry dependencies  
+- canonical Triadic‑Core provenance footer  
+
+All reconstructed operators must follow this style and structure.
+
+---
+
+## **3 — Missing v1.1 Artifacts (To Be Rebuilt Cleanly)**
 
 - Triadic‑Core‑Provenance‑Standard‑v1.0  
 - Triadic‑Math‑Core‑v1.1  
 - NDH‑Holonomy‑Geometry‑Integration‑v1.1  
 - Triadic‑Fusion‑Tensor‑Expansion‑v1.1  
 - Triadic‑Stability‑Analysis‑v1.1  
-- NDH‑Stability‑Manifold‑v1.1 (clean rewrite)  
-- Operator‑Index‑v1.1 (clean rewrite)  
-- Manifold‑Operator‑v1.1 (clean rewrite)  
-- Scarf‑Operator‑v1.1 (clean rewrite)
+- NDH‑Stability‑Manifold‑v1.1 (rewrite)  
+- Manifold‑Operator‑v1.1 (rewrite)  
+- Scarf‑Operator‑v1.1 (rewrite)  
+- Operator‑Index‑v1.1 (rewrite)
 
 ---
 
-## **3 — Required Directory Reconstruction**
+## **4 — Required Directory Reconstruction**
 
 Create or restore:
 
@@ -77,11 +79,9 @@ Core/
 Changelog/
 ```
 
-These directories are required for NDH‑Triadic‑Core v1.1 architecture.
-
 ---
 
-## **4 — Cleanup Sequence (Curvature‑Aligned)**
+## **5 — Cleanup Sequence (Crane‑Aligned)**
 
 ### **Step 1 — Extract All Confetti‑State Artifacts**
 Move the following to Zen‑AI‑Design‑Architecture:
@@ -92,22 +92,14 @@ Crane-Scarf-Confetti-Unified-Operator-v1.0.md
 Manifold-Operator-v1.1.md
 Scarf-Operator-v1.1.md
 Operator-Index-v1.0.md
-NDH-Stability-Manifold-v1.0.md (Confetti references)
+NDH-Stability-Manifold-v1.0.md
 ```
-
-These become part of the **Confetti lineage lane**.
-
----
 
 ### **Step 2 — Restore README v1.1**
 Already completed.
 
----
-
 ### **Step 3 — Add Corrected Lineage Footer**
 Already completed.
-
----
 
 ### **Step 4 — Rebuild Directory Structure**
 Add:
@@ -121,42 +113,35 @@ Core/
 Changelog/
 ```
 
----
-
 ### **Step 5 — Recreate Canonical Operators (v1.1 Clean Versions)**
 
-Recreate:
+Using **Crane‑Operator‑v1.1** as the reference:
 
-- Crane‑Operator‑v1.1 (verify clean)  
 - **Manifold‑Operator‑v1.1 (rewrite)**  
+  - defines \( \mathcal{M} \), curvature tensor \( R \), holonomy field \( \mathcal{H} \)  
+  - no Confetti references  
+
 - **Scarf‑Operator‑v1.1 (rewrite)**  
+  - defines holonomy‑safe parallel transport  
+  - path‑based stability conditions  
+  - no Confetti references  
+
 - **Operator‑Index‑v1.1 (rewrite)**  
-
-All must follow the Triadic‑Core Provenance Standard.
-
----
+  - lists only Crane, Scarf, Manifold  
+  - no Confetti lineage  
 
 ### **Step 6 — Rewrite Stability Manifold (v1.1)**
 
-Remove all Confetti integration:
+Remove Confetti integration and restore:
 
-- No celebration geometry  
-- No Confetti operator references  
-- No Confetti stability basins  
-
-Replace with canonical:
-
-- Crane integration  
-- Scarf integration  
-- Manifold integration  
-- Holonomy bounds  
-- Drift bounds  
-- Stability envelope  
-
----
+- stability envelope  
+- operator‑safe region  
+- drift bounds  
+- holonomy bounds  
+- curvature bounds  
+- Crane/Scarf/Manifold integration only  
 
 ### **Step 7 — Restore Missing Mathematical Artifacts**
-
 Recreate:
 
 - Triadic‑Core‑Provenance‑Standard‑v1.0  
@@ -165,10 +150,7 @@ Recreate:
 - Triadic‑Fusion‑Tensor‑Expansion‑v1.1  
 - Triadic‑Stability‑Analysis‑v1.1  
 
----
-
 ### **Step 8 — Update Changelog v1.1**
-
 Document:
 
 - Confetti extraction  
@@ -180,9 +162,7 @@ Document:
 
 ---
 
-## **5 — Target Post‑Cleanup State**
-
-After cleanup, NDH‑Triadic‑Core will contain:
+## **6 — Target Post‑Cleanup State**
 
 ```
 Standards/
@@ -217,18 +197,18 @@ Archive-Legacy-MathSpine/
     (unchanged)
 ```
 
-This is the canonical NDH‑Triadic‑Core v1.1 architecture.
-
 ---
 
-## **6 — Provenance Footer**
+## **7 — Provenance Footer**
 
 ```markdown
 ---
 Provenance: Triadic-Core-Cleanup-Plan-v1.0 defines the mathematical restoration
 required to return NDH-Triadic-Core to a clean, canonical state following the
-Confetti incident and subsequent operator corruption. All Confetti-state
-artifacts are preserved in Zen-AI-Design-Architecture for expressive lineage.
+Confetti incident and subsequent operator corruption. Crane-Operator-v1.1 is
+the reference artifact for reconstructing the Triadic operator suite. All
+Confetti-state artifacts are preserved in Zen-AI-Design-Architecture for
+expressive lineage.
 
 Maintainer: Borealis S. Hedling • Dublin, Ireland • 2026
 ---
