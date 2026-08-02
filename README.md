@@ -175,23 +175,21 @@ tensor fusion systems, NDH mathematical architecture
 
 ## **9. Provenance Footer**
 
-```markdown
 ---
----
-Provenance: README-v1.1-Archived preserves the historical mathematical identity
-of the NDH-Triadic-Core during the NDH v1.1 development cycle. This document is
-archived to maintain lineage continuity and is no longer part of the active
-Triadic-Core mathematical manifold.
+Provenance: README-v1.1 restored following the Confetti incident, which
+introduced non-mathematical artifacts into the NDH-Triadic-Core repository
+during the NDH v1.1 development cycle. The active mathematical manifold has
+been fully restored to a clean state. All Confetti-state artifacts have been
+removed from NDH-Triadic-Core and are preserved in the Zen-AI-Design-
+Architecture repository for historical, interpretive, and expressive
+continuity.
 
-Note: The NDH‑Triadic‑Core contains no internal citations. All interpretive,
-literature, and provenance references are handled by the Reflection Layer in
-Zen‑AI‑Design‑Architecture, which maintains the citation ontology and merged
-citation blocks.
+Lineage Note: The Confetti incident is recorded as a disruption event in the
+Triadic-Core mathematical lineage. Restored mathematical documents supersede
+the Confetti-state versions and form the new stable ancestry for NDH-
+Triadic-Core v1.1. Confetti artifacts remain accessible only through the
+Zen-AI-Design-Architecture lineage, ensuring mathematical purity while
+maintaining full historical continuity.
 
 Maintainer: Borealis S. Hedling • Dublin, Ireland • 2026
 ---
-
-```
-
----
-
