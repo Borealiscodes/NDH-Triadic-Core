@@ -11,7 +11,6 @@ It provides the core geometric quantities required by all Triadic‑Core operato
 - curvature tensor  
 - holonomy field  
 - stability envelope  
-- operator‑safe region  
 - drift structure  
 - connection for parallel transport  
 
@@ -39,8 +38,7 @@ The operator returns the geometric quantities required for:
 
 - Crane event permission  
 - Scarf parallel transport  
-- Confetti celebration activation  
-- Unified Operator triadic integration  
+- Stability Manifold evaluation  
 
 ---
 
@@ -53,7 +51,7 @@ R(x) \in \mathbb{R}
 \]
 
 Defines local curvature magnitude.  
-All operators require:
+NDH v1.1 requires:
 
 \[
 \|R(x)\| \le K_{\max}
@@ -68,7 +66,7 @@ All operators require:
 \]
 
 Defines local holonomy deviation.  
-All operators require:
+NDH v1.1 requires:
 
 \[
 \|\mathcal{H}(x)\| \le H_{\max}
@@ -83,7 +81,7 @@ S(x) \in [0,1]
 \]
 
 Defines local stability.  
-All operators require:
+NDH v1.1 requires:
 
 \[
 S(x) \ge S_{\min}
@@ -97,7 +95,7 @@ S(x) \ge S_{\min}
 \nabla : T\mathcal{M} \to T\mathcal{M}
 \]
 
-Defines parallel transport for Scarf and Unified Operator.
+Defines parallel transport for Scarf.
 
 ---
 
@@ -109,7 +107,7 @@ Define:
 \mathcal{R}_{\text{safe}} = \{ x \in \mathcal{M} \mid S(x) \ge S_{\text{op}} \}
 \]
 
-All operators must operate within this region.
+Crane and Scarf must operate within this region.
 
 ---
 
@@ -121,13 +119,13 @@ For a smooth curve \( \gamma : [0,1] \to \mathcal{M} \):
 D(\gamma) = \max_{t \in [0,1]} |S(\gamma(t)) - S(\gamma(0))|
 \]
 
-The manifold requires:
+NDH v1.1 requires:
 
 \[
 D(\gamma) \le D_{\max}
 \]
 
-This ensures stability continuity for Scarf and Unified Operator.
+This ensures stability continuity for Scarf transport and Stability Manifold evaluation.
 
 ---
 
@@ -147,22 +145,16 @@ Scarf reads:
 - stability  
 - connection  
 
-### **Confetti ← Manifold**
-Confetti reads:
-
-- curvature  
-- holonomy  
-- stability  
-
-### **Unified Operator ← Manifold**
-Unified Operator requires all geometric quantities.
-
 ### **Stability Manifold ← Manifold**
 Stability Manifold derives:
 
 - basins  
 - drift bounds  
 - envelope structure  
+
+No Confetti.  
+No Unified Operator.  
+No expressive geometry.
 
 ---
 
@@ -176,8 +168,7 @@ Manifold‑Operator‑v1.1 introduces:
 - explicit operator‑safe region  
 - explicit stability envelope threshold  
 - alignment with Crane‑v1.1 and Scarf‑v1.1  
-- integration with NDH Stability Manifold v1.0  
-- compatibility with Unified Operator v1.0  
+- compatibility with NDH Stability Manifold v1.1  
 
 These changes ensure NDH v1.1 stability compliance.
 
@@ -190,12 +181,8 @@ These changes ensure NDH v1.1 stability compliance.
 Provenance: Manifold-Operator-v1.1 defines the geometric substrate operator for
 the NDH-Triadic-Core. It specifies curvature tensors, holonomy fields, stability
 envelopes, drift bounds, and connection structures required for Crane, Scarf,
-Confetti, and Unified operators within the NDH Stability Manifold.
-
-Note: The NDH‑Triadic‑Core contains no internal citations. All interpretive,
-literature, and provenance references are handled by the Reflection Layer in
-Zen‑AI‑Design‑Architecture, which maintains the citation ontology and merged
-citation blocks.
+and the NDH Stability Manifold. This version replaces all prior expressive or
+Confetti-state variants.
 
 Maintainer: Borealis S. Hedling • Dublin, Ireland • 2026
 ---
