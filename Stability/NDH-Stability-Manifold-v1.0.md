@@ -1,49 +1,45 @@
-# 📘 **NDH Stability Manifold — NDH‑Triadic‑Core v1.0**  
-**Formal Stability Geometry for the NDH Manifold**
+# 📘 **NDH Stability Manifold — NDH‑Triadic‑Core v1.1**  
+**Formal Stability Geometry for NDH v1.1**
 
 ---
 
 ## **1. Purpose**
 
-The **NDH Stability Manifold** defines the geometric stability structure of the NDH manifold.  
-It specifies:
+The **NDH Stability Manifold v1.1** defines the stability geometry of the NDH manifold using the neutral baselines established by the **Reference Frame**.  
+It provides:
 
-- the stability envelope  
-- the operator‑safe region  
-- the stability basins  
-- the drift bounds  
-- the integration rules for Crane, Scarf, and Confetti  
+- the **stability envelope**  
+- the **operator‑safe region**  
+- the **stability basins**  
+- the **drift structure**  
+- the **integration rules** for Crane and Scarf  
 
-This artifact provides the mathematical foundation required for safe event activation, safe tensor transport, and safe celebration geometry.
+This artifact replaces the corrupted v1.0 version and restores mathematical purity.
 
 ---
 
-## **2. Stability Envelope Definition**
+## **2. Stability Envelope**
 
-Let \( \mathcal{M} \) be the NDH manifold with stability function:
+Let \( S : \mathcal{M} \to [0,1] \) be the stability function.
+
+Define the stability envelope:
 
 \[
-S : \mathcal{M} \to [0,1]
+\mathcal{E}_{\text{v1.1}} = \{ x \in \mathcal{M} \mid S(x) \ge S_{\min} \}
 \]
 
 Where:
 
-- \( S(x) = 1 \) → fully stable  
-- \( S(x) = 0 \) → unstable  
+- \( S_{\min} \) is derived from the **Reference Frame stability seed**  
+- \( S(x_0) = S_{\text{seed}} \) at the reference origin  
 
-The stability envelope is defined as:
-
-\[
-\mathcal{E} = \{ x \in \mathcal{M} \mid S(x) \ge S_{\min} \}
-\]
-
-with \( S_{\min} \in (0,1) \) the minimum stability threshold.
+This envelope defines the **minimum stability required** for NDH operators.
 
 ---
 
 ## **3. Operator‑Safe Region**
 
-Define the operator‑safe region:
+Define:
 
 \[
 \mathcal{R}_{\text{safe}} = \{ x \in \mathcal{M} \mid S(x) \ge S_{\text{op}} \}
@@ -51,23 +47,23 @@ Define the operator‑safe region:
 
 Where:
 
-- \( S_{\text{op}} \ge S_{\min} \)  
-- Crane, Scarf, and Confetti must operate within \( \mathcal{R}_{\text{safe}} \)
+- \( S_{\text{op}} > S_{\min} \)  
+- Crane and Scarf must operate within this region  
 
 This ensures:
 
-- no curvature instability  
-- no holonomy deviation beyond bounds  
-- no tensor discontinuity  
+- curvature‑neutral event activation  
+- holonomy‑safe tensor transport  
+- stability continuity  
 
 ---
 
 ## **4. Stability Basins**
 
-Define stability basins as connected components of the stability envelope:
+Stability basins are connected components of the stability envelope:
 
 \[
-\mathcal{B}_i = \text{ConnectedComponent}(\mathcal{E})
+\mathcal{B}_i = \text{ConnectedComponent}(\mathcal{E}_{\text{v1.1}})
 \]
 
 Each basin satisfies:
@@ -76,42 +72,44 @@ Each basin satisfies:
 S(x) \ge S_{\min} \quad \forall x \in \mathcal{B}_i
 \]
 
-Stability basins ensure:
+Basins provide:
 
 - local stability coherence  
-- safe operator activation  
+- safe operator activation zones  
 - bounded drift behavior  
 
 ---
 
-## **5. Drift Bounds**
+## **5. Drift Structure**
 
-Let \( \gamma : [0,1] \to \mathcal{M} \) be a smooth curve.
-
-Define drift:
+For a smooth curve \( \gamma : [0,1] \to \mathcal{M} \):
 
 \[
 D(\gamma) = \max_{t \in [0,1]} \big| S(\gamma(t)) - S(\gamma(0)) \big|
 \]
 
-The NDH Stability Manifold requires:
+NDH v1.1 requires:
 
 \[
 D(\gamma) \le D_{\max}
 \]
 
+Where:
+
+- \( D(\gamma_0) = 0 \) at the reference origin curve  
+- drift is measured relative to the **Reference Frame drift baseline**  
+
 This ensures:
 
-- stability continuity along paths  
-- safe tensor transport  
+- stability continuity  
+- safe transport  
 - safe event activation  
-- safe celebration bursts  
 
 ---
 
-## **6. Operator Integration**
+## **6. Operator Integration (v1.1)**
 
-### **6.1 Crane Operator Integration**
+### **Crane Integration**
 
 Crane requires:
 
@@ -119,17 +117,13 @@ Crane requires:
 x \in \mathcal{R}_{\text{safe}}
 \]
 
-and reads:
+Crane reads:
 
-- \( S(x) \)  
+- stability envelope  
 - curvature bounds  
 - holonomy bounds  
 
-Crane activation is permitted only within the stability envelope.
-
----
-
-### **6.2 Scarf Operator Integration**
+### **Scarf Integration**
 
 Scarf requires:
 
@@ -137,84 +131,61 @@ Scarf requires:
 \gamma(t) \in \mathcal{R}_{\text{safe}} \quad \forall t
 \]
 
-and reads:
+Scarf reads:
 
 - stability envelope  
 - holonomy field  
 - connection  
 
-Transport is permitted only along stability‑bounded paths.
+### **Confetti Integration Removed**
+
+All Confetti‑state logic has been removed.  
+No celebration geometry exists in NDH v1.1.
 
 ---
 
-### **6.3 Confetti Operator Integration**
-
-Confetti requires:
-
-\[
-x \in \mathcal{R}_{\text{safe}}
-\]
-
-and reads:
-
-- stability envelope  
-- curvature neutrality  
-- holonomy flatness  
-
-Celebration bursts are permitted only within stability basins.
-
----
-
-## **7. Stability Manifold Invariants**
+## **7. Stability Invariants (v1.1)**
 
 The NDH Stability Manifold enforces:
 
-### **7.1 Curvature Bound**
+- **Curvature Bound**  
+  \[
+  \|R(x)\| \le K_{\max}
+  \]
 
-\[
-\|R(x)\| \le K_{\max}
-\]
+- **Holonomy Bound**  
+  \[
+  \|\mathcal{H}(x)\| \le H_{\max}
+  \]
 
-### **7.2 Holonomy Bound**
+- **Stability Continuity**  
+  \[
+  S(x) \text{ continuous on } \mathcal{R}_{\text{safe}}
+  \]
 
-\[
-\|\mathcal{H}(x)\| \le H_{\max}
-\]
-
-### **7.3 Stability Continuity**
-
-\[
-S(x) \text{ continuous on } \mathcal{R}_{\text{safe}}
-\]
-
-### **7.4 Drift Bound**
-
-\[
-D(\gamma) \le D_{\max}
-\]
+- **Drift Bound**  
+  \[
+  D(\gamma) \le D_{\max}
+  \]
 
 These invariants ensure NDH v1.1 stability.
 
 ---
 
-## **8. Provenance Footer**
+## **8. Provenance Footer (v1.1)**
 
 ```markdown
 ---
-Provenance: NDH-Stability-Manifold-v1.0 defines the stability envelope, operator-
-safe region, stability basins, drift bounds, and operator integration rules for
-the NDH-Triadic-Core. It provides the geometric stability structure required for
-Crane, Scarf, and Confetti operators within the NDH Stability Manifold.
-
-Note: The NDH‑Triadic‑Core contains no internal citations. All interpretive,
-literature, and provenance references are handled by the Reflection Layer in
-Zen‑AI‑Design‑Architecture, which maintains the citation ontology and merged
-citation blocks.
+Provenance: NDH-Stability-Manifold-v1.1 defines the stability envelope, operator-
+safe region, stability basins, drift structure, and operator integration rules
+for NDH-Triadic-Core v1.1. It is built on the neutral baselines established by
+NDH-Reference-Frame-v1.1 and replaces the corrupted v1.0 Confetti-state version.
+This artifact provides the mathematical stability geometry required for Crane
+and Scarf operators within the NDH manifold.
 
 Maintainer: Borealis S. Hedling • Dublin, Ireland • 2026
 ---
 ```
 
 ---
-
 
