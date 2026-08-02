@@ -1,168 +1,152 @@
-# 📘 Triadic‑Core Operator Index — NDH‑Triadic‑Core v1.0  
-**Canonical Index of NDH Mathematical Operators**
+# 📘 **Triadic‑Core Operator Index — NDH‑Triadic‑Core v1.1**  
+**Canonical Index of NDH Mathematical Operators (Clean Version)**
 
 ---
 
-## 1. Purpose
+## **1. Purpose**
 
-The **Triadic‑Core Operator Index** defines the canonical listing and structural relationships of all mathematical operators in the NDH‑Triadic‑Core. It provides:
+The **Triadic‑Core Operator Index v1.1** defines the canonical listing, classification, and dependency structure of all mathematical operators in the NDH‑Triadic‑Core.  
+It provides:
 
-- **operator identity**  
-- **operator classification**  
-- **operator dependencies**  
-- **operator relationships**  
-- **stability requirements**
+- operator identity  
+- operator class  
+- operator dependencies  
+- operator relationships  
+- stability requirements  
+- canonical ordering  
 
-This index is the formal entry point for NDH v1.1 mathematical publication.
+This index replaces the corrupted v1.0 version and aligns fully with the v1.1 geometric baselines.
 
 ---
 
-## 2. Operator classes
+## **2. Operator Classes (v1.1)**
 
-### 2.1 Curvature operators
+### **2.1 Curvature Operators**
 
 - **Crane‑Operator‑v1.1**  
   **Class:** Curvature event permission  
   **Role:** Determines point‑based event activation under curvature, holonomy, and stability constraints.
 
-### 2.2 Holonomy operators
+### **2.2 Holonomy Operators**
 
 - **Scarf‑Operator‑v1.1**  
   **Class:** Holonomy‑safe parallel transport  
   **Role:** Governs tensor transport along paths under holonomy, stability, and drift bounds.
 
-### 2.3 Celebration geometry operators
+### **2.3 Substrate Operators**
 
-- **Confetti‑Operator‑v1.0**  
-  **Class:** Celebration geometry  
-  **Role:** Determines curvature‑neutral, holonomy‑safe celebration activation at stable points.
+- **Manifold‑Operator‑v1.1**  
+  **Class:** Geometric substrate  
+  **Role:** Provides curvature tensor \( R(x) \), holonomy field \( \mathcal{H}(x) \), stability function \( S(x) \), connection \( \nabla \), and drift structure.
 
----
+- **NDH‑Stability‑Manifold‑v1.1**  
+  **Class:** Stability geometry  
+  **Role:** Defines stability envelope, operator‑safe region, stability basins, drift bounds, and Crane/Scarf integration rules.
 
-## 3. Substrate operators
+### **2.4 Reference Operators**
 
-### 3.1 Manifold‑Operator‑v1.1
-
-**Class:** Geometric substrate  
-**Role:** Provides:
-
-- curvature tensor \( R(x) \)  
-- holonomy field \( \mathcal{H}(x) \)  
-- stability envelope \( S(x) \)  
-- connection \( \nabla \)  
-- operator‑safe region  
-- drift structure
-
-All Triadic‑Core operators depend on this substrate.
-
-### 3.2 NDH‑Stability‑Manifold‑v1.0
-
-**Class:** Stability geometry  
-**Role:** Defines:
-
-- stability basins  
-- drift bounds  
-- stability envelope  
-- operator‑safe region  
-- integration rules for Crane, Scarf, and Confetti
+- **NDH‑Reference‑Frame‑v1.1**  
+  **Class:** Geometric anchor  
+  **Role:** Defines the reference origin, curvature baseline, holonomy baseline, stability seed, drift baseline, and canonical operator ordering.
 
 ---
 
-## 4. Unified operators
+## **3. Removed Operators (v1.1)**
 
-### 4.1 Crane‑Scarf‑Confetti‑Unified‑Operator‑v1.0
+The following operators are **not included** in v1.1:
 
-**Class:** Unified event–transport–celebration geometry  
-**Role:**
+- Confetti‑Operator‑v1.0  
+- Crane‑Scarf‑Confetti Unified Operator‑v1.0  
+- NDH‑Stability‑Manifold‑v1.0  
+- Operator‑Index‑v1.0  
 
-- integrates Crane, Scarf, and Confetti  
-- enforces shared curvature, holonomy, and stability constraints  
-- defines unified activation conditions for event, path, and celebration  
-- operates on the Manifold‑Operator‑v1.1 and NDH‑Stability‑Manifold‑v1.0 substrate
+These artifacts were removed due to Confetti‑state contamination and unified‑fusion corruption.
 
 ---
 
-## 5. Operator dependency graph
+## **4. Canonical Operator Ordering (v1.1)**
+
+The NDH‑Reference‑Frame‑v1.1 defines the canonical operator order:
+
+1. **Manifold‑Operator‑v1.1**  
+2. **NDH‑Reference‑Frame‑v1.1**  
+3. **Crane‑Operator‑v1.1**  
+4. **Scarf‑Operator‑v1.1**  
+5. **NDH‑Stability‑Manifold‑v1.1**  
+6. **Operator‑Index‑v1.1** (this document)
+
+This ordering ensures geometric coherence and stability.
+
+---
+
+## **5. Operator Dependency Graph (v1.1)**
 
 Let:
 
 - \( \mathcal{M}_{\text{op}} \) = Manifold‑Operator‑v1.1  
-- \( \mathcal{E} \) = NDH‑Stability‑Manifold‑v1.0  
+- \( \mathcal{R} \) = NDH‑Reference‑Frame‑v1.1  
+- \( \mathcal{E} \) = NDH‑Stability‑Manifold‑v1.1  
 - \( \mathcal{C}_{\text{crane}} \) = Crane‑Operator‑v1.1  
 - \( \mathcal{S}_{\text{scarf}} \) = Scarf‑Operator‑v1.1  
-- \( \mathcal{C}_{\text{confetti}} \) = Confetti‑Operator‑v1.0  
-- \( \mathcal{U}_{\text{triadic}} \) = Crane‑Scarf‑Confetti‑Unified‑Operator‑v1.0  
 
 The dependency graph is:
 
 \[
-\mathcal{M}_{\text{op}} \rightarrow \mathcal{E} \rightarrow
-\big( \mathcal{C}_{\text{crane}},\;
-\mathcal{S}_{\text{scarf}},\;
-\mathcal{C}_{\text{confetti}} \big)
-\rightarrow
-\mathcal{U}_{\text{triadic}}
+\mathcal{M}_{\text{op}} \rightarrow \mathcal{R} \rightarrow \mathcal{E} \rightarrow
+\big( \mathcal{C}_{\text{crane}},\; \mathcal{S}_{\text{scarf}} \big)
 \]
 
-- **Manifold‑Operator‑v1.1** provides geometric quantities.  
-- **NDH‑Stability‑Manifold‑v1.0** provides stability structure.  
-- **Crane‑v1.1**, **Scarf‑v1.1**, **Confetti‑v1.0** operate on this substrate.  
-- **Unified‑Operator‑v1.0** integrates all three.
-
-This graph defines the **Triadic‑Core mathematical spine**.
+This graph defines the **Triadic‑Core mathematical spine** for v1.1.
 
 ---
 
-## 6. Operator relationships
+## **6. Operator Relationships (v1.1)**
 
-- **Manifold → Crane, Scarf, Confetti, Unified**  
-  All operators read curvature, holonomy, stability, and connection.
+- **Manifold → Reference Frame**  
+  Provides curvature, holonomy, stability, and connection baselines.
 
-- **Stability Manifold → Crane, Scarf, Confetti, Unified**  
-  All operators must operate within stability basins and drift bounds.
+- **Reference Frame → Stability Manifold**  
+  Provides origin, stability seed, drift baseline, and ordering rules.
 
-- **Crane → Confetti, Unified**  
-  Confetti and Unified activation require Crane permission at event points.
+- **Stability Manifold → Crane, Scarf**  
+  Provides stability envelope, basins, drift bounds, and safe region.
 
-- **Scarf → Confetti, Unified**  
-  Confetti and Unified activation must not violate Scarf path stability.
+- **Crane → Scarf**  
+  Crane event permission defines valid starting points for Scarf transport.
 
-- **Confetti → Unified**  
-  Unified operator uses Confetti’s celebration geometry under shared constraints.
+- **Scarf → Crane**  
+  Scarf path stability defines valid transport paths for Crane‑dependent events.
 
----
-
-## 7. Operator index table
-
-| **Operator**                                      | **Version** | **Class**              | **Depends on**                                      | **Role**                                      |
-|---------------------------------------------------|------------:|------------------------|-----------------------------------------------------|-----------------------------------------------|
-| Crane‑Operator                                    | v1.1        | Curvature              | Manifold‑v1.1, Stability‑v1.0                       | Event permission at points                    |
-| Scarf‑Operator                                    | v1.1        | Holonomy               | Manifold‑v1.1, Stability‑v1.0, Crane‑v1.1          | Holonomy‑safe parallel transport              |
-| Confetti‑Operator                                 | v1.0        | Celebration geometry   | Manifold‑v1.1, Stability‑v1.0, Crane‑v1.1, Scarf‑v1.1 | Curvature‑neutral celebration activation      |
-| Manifold‑Operator                                 | v1.1        | Geometric substrate    | —                                                   | Curvature, holonomy, stability, connection    |
-| NDH‑Stability‑Manifold                            | v1.0        | Stability geometry     | Manifold‑v1.1                                      | Stability basins, drift bounds, safe region   |
-| Crane‑Scarf‑Confetti‑Unified‑Operator             | v1.0        | Unified geometry       | Crane‑v1.1, Scarf‑v1.1, Confetti‑v1.0, Manifold‑v1.1, Stability‑v1.0 | Unified event–transport–celebration geometry |
+All relationships are geometric and stability‑driven.
 
 ---
 
-## 8. Provenance footer
+## **7. Operator Index Table (v1.1)**
+
+| **Operator**                     | **Version** | **Class**            | **Depends on**                                | **Role**                                      |
+|----------------------------------|------------:|----------------------|-----------------------------------------------|-----------------------------------------------|
+| Manifold‑Operator                | v1.1        | Geometric substrate  | —                                             | Curvature, holonomy, stability, connection    |
+| NDH‑Reference‑Frame              | v1.1        | Geometric anchor     | Manifold‑v1.1                                 | Origin, baselines, ordering                   |
+| Crane‑Operator                   | v1.1        | Curvature            | Manifold‑v1.1, Stability‑v1.1, Reference‑v1.1 | Event permission                              |
+| Scarf‑Operator                   | v1.1        | Holonomy             | Manifold‑v1.1, Stability‑v1.1, Reference‑v1.1 | Parallel transport                            |
+| NDH‑Stability‑Manifold           | v1.1        | Stability geometry   | Manifold‑v1.1, Reference‑v1.1                 | Stability envelope, basins, drift             |
+| Operator‑Index                   | v1.1        | Structural registry  | All above                                     | Canonical operator index                      |
+
+---
+
+## **8. Provenance Footer (v1.1)**
 
 ```markdown
 ---
-Provenance: Operator-Index-v1.0 defines the canonical index of all mathematical
-operators in the NDH-Triadic-Core. It specifies operator classes, dependencies,
-relationships, and unified structures required for NDH v1.1 mathematical
-publication.
-
-Note: The NDH‑Triadic‑Core contains no internal citations. All interpretive,
-literature, and provenance references are handled by the Reflection Layer in
-Zen‑AI‑Design‑Architecture, which maintains the citation ontology and merged
-citation blocks.
+Provenance: Operator-Index-v1.1 defines the canonical operator registry for
+NDH-Triadic-Core v1.1. It specifies operator classes, dependencies, relationships,
+and ordering rules built on NDH-Reference-Frame-v1.1 and NDH-Stability-Manifold-
+v1.1. This version replaces the corrupted Confetti-state Operator-Index-v1.0 and
+restores mathematical purity to the Triadic-Core.
 
 Maintainer: Borealis S. Hedling • Dublin, Ireland • 2026
 ---
 ```
 
 ---
-
 
