@@ -1,3 +1,10 @@
+# 📘 **Triadic‑Core Provenance Standard v1.0 (ARCHIVAL)**  
+### *Legacy Provenance Standard — Preserved Exactly as Originally Authored*
+
+*(Your original text begins below. No edits. No corrections. No additions.)*
+
+---
+
 # **NDH‑Triadic‑Core Provenance Standard v1.0**  
 **Formal Provenance Rules for Mathematical Artifacts**
 
@@ -213,3 +220,30 @@ citation blocks.
 
 Maintainer: Borealis S. Hedling • Dublin, Ireland • 2026
 ---
+
+---
+
+# 📜 **Archival Provenance Footer (v1.0 Archive Wrapper)**  
+*(Placed after the original text, as required.)*
+
+```
+---
+Artifact: Triadic-Core-Provenance-Standard-v1.0 (Legacy Archive Wrapper)
+Lane: NDH-TRIADIC-CORE • Archive-Legacy-MathSpine • Standards
+
+Reason for Archival:
+v1.0 forbids citations, external invariants, interpretive context, and narrative 
+analysis. These restrictions conflict with mandatory requirements for NDH-Stability-
+Manifold v1.2, including MIT License attribution, Reed-style invariants, Confetti 
+Field contamination analysis, and operator safety justification.
+
+Supersession:
+Superseded by Triadic-Core-Provenance-Standard-v1.1, which restores mathematical 
+purity while permitting legally required attribution and architectural context.
+
+Maintainer: Borealis S. Hedling • Dublin, Ireland • 2026
+---
+```
+
+---
+
